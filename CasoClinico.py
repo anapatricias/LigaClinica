@@ -8,3 +8,5 @@ class CasoClinico:
 
     def __str__(self):
         return f"{self.titulo} ({self.data}) - por {self.autor}"
+caso = CasoClinico(1, "Tumor raro", "Paciente com sintomas raros...", "Dr. Andreia Silva", "2025-07-09")
+print(caso)
